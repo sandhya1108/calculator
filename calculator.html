@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+    <body bgcolor="pink">
+        <center><br><br><br><br>
+        <div style="background-color :rgb(7, 7, 226); width:300px; height: 470px;border: 3px solid red;">
+            <center>
+                <br><br><br>
+            <table>
+                <tr>
+                    <td colspan="4"><input type="text" style="height:65px; width:220px;" id="input"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="1" class="b" id="one" onclick="first()"></td>
+                    <td><input type="button" value="2" class="b" id="two" onclick="second()"></td>
+                    <td><input type="button" value="3" class="b" id="three" onclick="three()"></td>
+                    <td><input type="button" value="+" class="b" id="plus" onclick="plus()"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4" class="b" id="four" onclick="four()"></td>
+                    <td><input type="button" value="5" class="b" id="five" onclick="five()"></td>
+                    <td><input type="button" value="6" class="b" id="six" onclick="six()"></td>
+                    <td><input type="button" value="-" class="b" id="minus" onclick="minus()"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="7" class="b" id="seven" onclick="seven()"></td>
+                    <td><input type="button" value="8" class="b" id="eight" onclick="eight()"></td>
+                    <td><input type="button" value="9" class="b" id="nine" onclick="nine()"></td>
+                    <td><input type="button" value="*" class="b" id="star" onclick="star()"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="." class="b" id="dot" onclick="dot()"></td>
+                    <td><input type="button" value="0" class="b" id="zero" onclick="zero()"></td>
+                    <td><input type="button" value="=" class="b" id="equal" onclick="equal()"></td>
+                    <td><input type="button" value="/" class="b" id="slash" onclick="slash()"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="button" class="l" value="clear" onclick="Clear();"></td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    <script type="text/javascript" src="calculator.js"></script>
+    </body>
+</html>
